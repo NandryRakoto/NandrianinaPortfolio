@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos de moi</title>
+    <link rel="stylesheet" href="about.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>À propos de moi</h1>
+
+        <section class="left">
+            <h2>Qui suis je?</h2>
+            <p>
+                Je m'appelle Nandrianina, étudiant en informatique et passionné par le développement web. Débutant dans ce domaine, je suis animé par une forte envie d'apprendre et je me consacre actuellement aux bases essentielles : HTML, CSS et JavaScript. Mon objectif est d'approfondir mes connaissances pour devenir un développeur web compétent et créatif.<br><br> Conscient qu'il me reste encore beaucoup à découvrir, je suis prêt à relever les défis nécessaires à ma progression. Chaque ligne de code que j'écris représente une opportunité d'apprentissage et d'amélioration.
+            </p>
+        </section>
+
+        <section class="right">
+            <h2>Mon parcours</h2>
+            <p>
+                En tant qu'étudiant en informatique, je me lance avec passion dans le développement web. Bien que je sois au début de mon parcours, j’ai déjà commencé à maîtriser les bases fondamentales, notamment HTML, CSS et JavaScript.<br><br> Ces apprentissages initiaux me permettent de comprendre les fondations techniques sur lesquelles je construis progressivement mes compétences. Pour consolider ces acquis, je travaille sur des projets concrets, ce qui m’aide à appliquer mes connaissances tout en développant une compréhension approfondie des concepts.
+            </p>
+        </section>
+
+        <section class="left">
+            <h2>Mes passions</h2>
+            <p>
+                Passionné par l’informatique et le développement web, je m’intéresse également aux nouvelles technologies et à la manière dont elles transforment notre quotidien. En dehors du code, mes autres centres d’intérêt incluent les jeux vidéo et la photographie. Ces loisirs nourrissent ma créativité et m’aident à explorer différentes perspectives.<br><br> Ils complètent ma passion pour le développement en m’incitant à rester curieux, à innover et à intégrer des idées originales dans mes projets. Pour moi, chaque expérience est une occasion d’apprendre et de grandir.
+
+            </p>
+        </section>
+        
+        <a href="index.html" class="boutton">Retour à l'accueil</a>
+    </div>
+    <script>
+        ScrollReveal({
+   distance : '50px',
+   duration : 2500,
+   delay : 400,
+   opacity : 0,
+   reset:true
+});
+ScrollReveal().reveal('.right',{delay : 300,origin : 'left'});
+
+ScrollReveal().reveal('.left',{delay : 300,origin : 'right'});
+    </script>
+</body>
+</html>
+ 
